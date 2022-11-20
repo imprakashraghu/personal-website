@@ -11,12 +11,12 @@ export default function Home() {
           <title>Hemaprakash Raghu - Software engineer, technical architect and amateur gamer</title>
           <meta name="title" content="Hemaprakash Raghu - Software engineer, technical architect and amateur gamer" />
           <meta name="description" content="" />
-          <link rel="icon" type="image/x-icon" href="/avatar.ico"></link>
+          <link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div className='w-full bg-black text-white'>
         <Header />
-        <div className='w-full flex flex-col p-10 px-28 pt-16'>
+        <div className='w-full flex flex-col p-10 px-10 lg:px-28 pt-10 lg:pt-16'>
           <div class="max-w-2xl">
             <Image
               width='100'
@@ -52,7 +52,7 @@ export default function Home() {
             <div className='relative aspect-[9/12] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl rotate-2'>
               <Image
                 alt='dark-me'
-                src='/ride.jpg'
+                src='/ride.jpeg'
                 width='500'
                 height='500'
                 className='object-cover bg-black'
@@ -79,7 +79,7 @@ export default function Home() {
             <div className='relative aspect-[9/12] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl rotate-2'>
               <Image
                 alt='ride-me'
-                src='/dark.jpg'
+                src='/dark.jpeg'
                 width='500'
                 height='500'
                 className='object-cover bg-black'
@@ -96,13 +96,13 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='max-w-2xl p-10 px-28 pt-16 flex flex-col items-end'>
+        <div className='max-w-2xl p-8 lg:p-10 px-10 lg:px-28 pt-10 lg:pt-16 flex flex-col items-end'>
           <div className='w-full border border-zinc-700 rounded-2xl flex flex-col p-6'>
             <h2 class="flex text-md font-semibold text-zinc-900 dark:text-zinc-100">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6 flex-none fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 flex-none fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
               </svg>
-              <span class="ml-3">Education</span>
+              <span className="ml-3">Education</span>
             </h2>
             <ul role='list' className='py-6'>
               <li className='group flex flex-col items-start'>
@@ -120,83 +120,86 @@ export default function Home() {
           </div>
           <div className='w-full mt-4 border border-zinc-700 rounded-2xl flex flex-col p-6'>
             <h2 class="flex text-md font-semibold text-zinc-900 dark:text-zinc-100">
-              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="h-6 w-6 flex-none"><path d="M2.75 9.75a3 3 0 0 1 3-3h12.5a3 3 0 0 1 3 3v8.5a3 3 0 0 1-3 3H5.75a3 3 0 0 1-3-3v-8.5Z" class="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"></path><path d="M3 14.25h6.249c.484 0 .952-.002 1.316.319l.777.682a.996.996 0 0 0 1.316 0l.777-.682c.364-.32.832-.319 1.316-.319H21M8.75 6.5V4.75a2 2 0 0 1 2-2h2.5a2 2 0 0 1 2 2V6.5" class="stroke-zinc-400 dark:stroke-zinc-500"></path></svg>
-              <span class="ml-3">Work</span>
+              <svg viewBox="0 0 24 24" fill="none" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" ariaHidden="true" className="h-6 w-6 flex-none"><path d="M2.75 9.75a3 3 0 0 1 3-3h12.5a3 3 0 0 1 3 3v8.5a3 3 0 0 1-3 3H5.75a3 3 0 0 1-3-3v-8.5Z" className="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"></path><path d="M3 14.25h6.249c.484 0 .952-.002 1.316.319l.777.682a.996.996 0 0 0 1.316 0l.777-.682c.364-.32.832-.319 1.316-.319H21M8.75 6.5V4.75a2 2 0 0 1 2-2h2.5a2 2 0 0 1 2 2V6.5" className="stroke-zinc-400 dark:stroke-zinc-500"></path></svg>
+              <span className="ml-3">Work</span>
             </h2>
             <ul role='list' className='py-6 mb-3'>
               <li className='w-full group'>
-                <div className='w-full flex flex-row items-start justify-between'>
+                <div className='w-full flex flex-col lg:flex-row items-start lg:justify-between'>
                   <Image
                     width='35'
                     height='35'
                     src='/tcs.png'
-                    className='aspect-square object-contain'
+                    className='aspect-square object-contain lg:mb-0 mb-2'
                     alt='college-icon'
                   />
                   <div className='w-full flex-col items-start'>
-                    <h2 className='w-full text-left text-sm text-zinc-100 font-semibold pl-4'>
+                    <h2 className='w-full text-left text-sm text-zinc-100 font-semibold lg:pl-4'>
                       Tata Consultancy Services
                     </h2>
-                    <p className='w-full text-sm text-zinc-500 text-left mt-1 pl-4'>
+                    <p className='w-full text-sm text-zinc-500 text-left mt-1 lg:pl-4'>
                       System Engineer
                     </p>
                   </div>
-                  <p className='whitespace-nowrap text-zinc-500  text-xs text-left mt-1 pl-4'>
+                  <p className='whitespace-nowrap text-zinc-500  text-xs text-left mt-1 lg:pl-4'>
                     2021 - Present
                   </p>
                 </div>
               </li>
               <li className='w-full group mt-6'>
-                <div className='w-full flex flex-row items-start justify-between'>
+                <div className='w-full flex flex-col lg:flex-row items-start lg:justify-between'>
                   <Image
                     width='35'
                     height='35'
                     src='/vscaleup.png'
-                    className='aspect-square object-contain'
+                    className='aspect-square object-contain lg:mb-0 mb-2'
                     alt='college-icon'
                   />
                   <div className='w-full flex-col items-start'>
-                    <h2 className='w-full text-left text-sm text-zinc-100 font-semibold pl-4'>
+                    <h2 className='w-full text-left text-sm text-zinc-100 font-semibold lg:pl-4'>
                       Vscaleup
                     </h2>
-                    <p className='w-full text-zinc-500 text-sm text-left mt-1 pl-4'>
+                    <p className='w-full text-zinc-500 text-sm text-left mt-1 lg:pl-4'>
                       Software Developer Intern
                     </p>
                   </div>
-                  <p className='whitespace-nowrap text-zinc-500 text-xs text-left mt-1 pl-4'>
+                  <p className='whitespace-nowrap text-zinc-500 text-xs text-left mt-1 lg:pl-4'>
                     Jul 2020 - May 2021
                   </p>
                 </div>
               </li>
               <li className='w-full group mt-6'>
-                <div className='w-full flex flex-row items-start justify-between'>
+                <div className='w-full flex flex-col lg:flex-row items-start lg:justify-between'>
                   <Image
                     width='35'
                     height='35'
                     src='/tcs.png'
-                    className='aspect-square object-contain'
+                    className='aspect-square object-contain lg:mb-0 mb-2'
                     alt='college-icon'
                   />
                   <div className='w-full flex-col items-start'>
-                    <h2 className='w-full text-left text-sm text-zinc-100 font-semibold pl-4'>
+                    <h2 className='w-full text-left text-sm text-zinc-100 font-semibold lg:pl-4'>
                       Tata Consultancy Services
                     </h2>
-                    <p className='w-full text-zinc-500 text-sm text-left mt-1 pl-4'>
+                    <p className='w-full text-zinc-500 text-sm text-left mt-1 lg:pl-4'>
                       Software Developer Intern
                     </p>
                   </div>
-                  <p className='whitespace-nowrap text-zinc-500 text-xs text-left mt-1 pl-4'>
+                  <p className='whitespace-nowrap text-zinc-500 text-xs text-left mt-1 lg:pl-4'>
                     Feb 2020 - Jun 2020
                   </p>
                 </div>
               </li>
             </ul>
-            <button className='bg-blue-600 text-white px-4 w-full py-2 rounded-lg text-sm text-center flex items-center justify-center'>
+            <a
+              target='__blank' 
+              href='https://drive.google.com/file/d/1GFBPfLhgsSf4A65o74QULD453za80rzj/view?usp=sharing'
+              className='bg-blue-600 text-white px-4 w-full py-2 rounded-lg text-sm text-center flex items-center justify-center'>
               Download Resume
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 text-white mx-2">
                 <path d="M13.75 7h-3v5.296l1.943-2.048a.75.75 0 011.114 1.004l-3.25 3.5a.75.75 0 01-1.114 0l-3.25-3.5a.75.75 0 111.114-1.004l1.943 2.048V7h1.5V1.75a.75.75 0 00-1.5 0V7h-3A2.25 2.25 0 004 9.25v7.5A2.25 2.25 0 006.25 19h7.5A2.25 2.25 0 0016 16.75v-7.5A2.25 2.25 0 0013.75 7z" />
               </svg>
-            </button>
+            </a>
           </div>
         </div>
       </div> 

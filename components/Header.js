@@ -8,7 +8,7 @@ function Header({ showIcon=false }) {
     const router = useRouter()
 
   return (
-    <div className={`w-full flex flex-row items-start justify-between py-6 ${!showIcon?'px-28':'px-14'}`}>
+    <div className={`w-full flex flex-col lg:flex-row items-center lg:items-start justify-between py-6 ${!showIcon?'lg:px-28':'lg:px-14'}`}>
         {
             showIcon ? (
                 <Link href='/'>
@@ -22,7 +22,7 @@ function Header({ showIcon=false }) {
                 </Link>
             ) : null
         }
-        <div className='w-full flex items-center gap-8 justify-end'>
+        <div className='w-full flex items-center gap-8 lg:mt-0 mt-4 justify-center lg:justify-end'>
             <Link href='/about'>
                 <p className={`text-zinc-100 text-md text-center hover:text-blue-600 ${router.pathname==='/about'?'text-blue-600 font-bold':''}`}>About</p>
             </Link>

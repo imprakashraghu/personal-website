@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 function Footer() {
   return (
@@ -10,10 +11,10 @@ function Footer() {
                         <div class="mx-auto max-w-2xl lg:max-w-5xl">
                             <div class="flex flex-col items-center justify-between gap-6 sm:flex-row">
                                 <div class="flex gap-6 text-sm font-medium text-zinc-200">
-                                    <a class="transition hover:text-blue-600" href="/about">About</a>
-                                    <a class="transition hover:text-blue-600" href="/projects">Projects</a>
-                                    <a class="transition hover:text-blue-600" href="/articles">Articles</a>
-                                    <a class="transition hover:text-blue-600" href="/experience">Experience</a>
+                                    <Link href='/about'><p class="transition hover:text-blue-600">About</p></Link>
+                                    <Link href='/projects'><p class="transition hover:text-blue-600">Projects</p></Link>
+                                    <Link href='/articles'><p class="transition hover:text-blue-600">Articles</p></Link>
+                                    <Link href='/experience'><p class="transition hover:text-blue-600">Experience</p></Link>
                                 </div>
                                 <p class="text-sm text-zinc-400 dark:text-zinc-500">© {new Date().getFullYear()} Hemaprakash Raghu. All rights reserved.</p>
                             </div>

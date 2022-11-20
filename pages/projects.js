@@ -12,10 +12,10 @@ function Projects() {
             <title>Projects - Hemaprakash Raghu</title>
             <meta name="title" content="Projects - Hemaprakash Raghu" />
             <meta name="description" content="" />
-            <link rel="icon" type="image/x-icon" href="/avatar.ico"></link>
+            <link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </Head>
-        <div className='w-full bg-black text-white px-28'>
+        <div className='w-full bg-black text-white px-10 lg:px-28'>
             <Header showIcon />
             <div className='sm:px-8 mt-12 sm:mt-20'>
                 <div className='mx-auto max-w-7xl lg:px-8'>
