@@ -41,7 +41,7 @@ function About() {
                                         I used to have visions in my mind which in turn helps me to solve problems and create new things. I started my career writing my first line of code, when I was 15 years old. I make myself not to settle with anything making me much more consistent to work and aim higher.
                                     </p>
                                     <p>
-                                        Bachelor&apos;s in Computer Science, gave me a lot of exposure into the technical world. I created my first android app during my 1st year and presented to many people including the local state government, which motivated me in creating solutions to problems. I am preparing myself to achieve something good in the field of Quantum Computing, helping the human species running towards a different era.
+                                        Bachelor&apos;s in Computer Science, gave me a lot of exposure into the technical world. I created my first android app during my 1st year and presented to many people including the local state government, which motivated me in creating solutions to problems. I am preparing myself to achieve something good in the field of Artificial Intelligence, helping the human species running towards a different era.
                                     </p>
                                     <p>
                                         I love to workout, and more conscious about my health and shape of the body. I even learnt more about the anatomy of the body and practised diagnosis as a play thing which was interesting. I have a strong belief that the more we understand our body working the more problems we could avoid.

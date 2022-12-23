@@ -29,7 +29,7 @@ export default function Home() {
               Software engineer, technical architect and amateur gamer.
             </h1>
             <p className='w-full text-left text-gray-400 text-base py-2 leading-relaxed'>
-              I&apos;m Hemaprakash, a software engineer and technical architect based in Puducherry, India. I am inclined to Applied Physics and Quantum Computing which could be the game changer for the future world.
+              I&apos;m Hemaprakash, a software engineer and technical architect based in Puducherry, India. I am inclined to Artificial Intelligence and Quantum Computing which could be the game changer for the future world.
             </p>
             <div className='mt-6 flex gap-6'>
               <a target='__blank' href='https://twitter.com/imprakashraghu' className='group -m-1 p-1'>
